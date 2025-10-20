@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WhiteAngel145/MoveMagic/issues"
   },
-  "homepage": "https://github.com/WhiteAngel145/MoveMagic#readme"
+  "homepage": "https://github.com/WhiteAngel145/MoveMagic#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
