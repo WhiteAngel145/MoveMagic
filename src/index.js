@@ -1,0 +1,1 @@
+console.log('MoveMagic server is running...');
