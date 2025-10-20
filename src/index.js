@@ -19,9 +19,12 @@ app.use(express.static('src/static'));
 
 // Routes
 app.get('/', (req, res) => {
-	res.render('home', { layout: false});
+	res.render('home');
 });
 
+app.get('/about', (req, res) => {
+	res.render('about');
+});
 // Start the Server
 app.listen(PORT, () => {
 	console.log(`Server is running on http://localhost:${PORT}`);

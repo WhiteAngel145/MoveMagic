@@ -9,8 +9,8 @@ Soft uni exercise js back-end.
  - [x] Set up static files
  - [x] Render Home Page
  - [x] Config debugging
- - [] 
- - [] 
+ - [x] Add Layout
+ - [x] Render About Page
  - [] 
  - [] 
  - [] 
