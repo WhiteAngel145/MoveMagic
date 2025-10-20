@@ -8,7 +8,7 @@ Soft uni exercise js back-end.
  - [x] Set up Handlebars `npm i express-handlebars`
  - [x] Set up static files
  - [x] Render Home Page
- - [] Config debugging
+ - [x] Config debugging
  - [] 
  - [] 
  - [] 
