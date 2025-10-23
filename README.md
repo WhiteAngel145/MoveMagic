@@ -2,7 +2,7 @@
 Soft uni exercise js back-end.
 ## Development Steps
 
- - [x] Initialize Project
+ - [x] Initialize Project `npm init --yes`
  - [x] Add Express Server `npm i express`
  - [x] Add Workshop Resources
  - [x] Set up Handlebars `npm i express-handlebars`
@@ -29,7 +29,10 @@ Soft uni exercise js back-end.
 	- [x] Add service
 	- [x] Add model method for creating movie
  - [x] Redirect after creating movie
- - [x] Add unique id for eah created movie
+ - [x] Add unique id for eah created movie `npm i uuid`
+ ---
+ ### Details Page
+ ### Search Page
  - [] Add 404 page
  - [] 
  - [] 
