@@ -24,12 +24,12 @@ Soft uni exercise js back-end.
  - [x] Show create movie page
  - [x] Add routes
  - [x] Ready body data
- - [] Create movie
-	- [] Add action
-	- [] Add service
-	- [] Add model method for creating movie
+ - [x] Create movie
+	- [x] Add action
+	- [x] Add service
+	- [x] Add model method for creating movie
+ - x[] Redirect after creating movie
  - [] Add 404 page
- - [] 
  - [] 
  - [] 
  - [] 
