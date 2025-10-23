@@ -11,6 +11,18 @@ Soft uni exercise js back-end.
  - [x] Config debugging
  - [x] Add Layout
  - [x] Render About Page
+ ---
+ ### Architecture
+ - [x] Add home controller
+ - [] Add movie data layer
+ - [] Add movie service
+ - [] Render movies on home page
+ - [] Show no movies screen
+ ---
+ - [] Add routes
+ - [] 
+ - [] 
+ - [] 
  - [] 
  - [] 
  - [] 
