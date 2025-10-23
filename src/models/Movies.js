@@ -35,7 +35,21 @@ const movies = [
   ]
 
 export default class Movie {
+  constructor(data) {
+    Object.assign(this, data); // assign all properties from data to the instance
+
+  }
+
 	static find(){
     return [...movies]; // return a copy of the movies array or use movies.slice()
 	}
+
+  save() {
+    // this.data._id = (Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)); // generate a simple unique id
+    movies.push(this); // add the new movie to the movies array
+    console.log(movies);
+    
+    return this; // return the newly created movie data
+  }
+
 }

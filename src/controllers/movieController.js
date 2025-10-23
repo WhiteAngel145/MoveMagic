@@ -11,7 +11,7 @@ movieController.get('/create', (req, res) => {
 movieController.post('/create', (req, res) => {
 	const movieData = req.body
 	movieServices.create(movieData);
-
+	
 	res.end();
 })
 

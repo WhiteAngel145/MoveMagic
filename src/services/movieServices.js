@@ -6,7 +6,9 @@ export default {
 		return Movie.find();
 	},
 	create(data) {
-		console.log(data);;
+
+		const movie = new Movie(data); // create a new instance of the Movie model with the provided data
+		return movie.save(); // save the new movie and return the saved data
 		
 	}
 }
