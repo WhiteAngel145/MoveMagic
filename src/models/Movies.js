@@ -34,7 +34,7 @@ const movies = [
     }
   ]
 
-class Movie {
+export default class Movie {
 	static find(){
     return [...movies]; // return a copy of the movies array or use movies.slice()
 	}

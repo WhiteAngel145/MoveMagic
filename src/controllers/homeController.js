@@ -1,8 +1,11 @@
 import { Router } from 'express';
+import movieServices from '../services/movieServices.js';
 
 const homeController = Router();
 
 homeController.get('/', (req, res) => {
+	const movies = movieServices.getAll();
+
 	res.render('home');
 });
 
