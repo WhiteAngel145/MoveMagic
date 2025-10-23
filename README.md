@@ -19,12 +19,16 @@ Soft uni exercise js back-end.
  - [x] Render movies on home page
  - [x] Show no movies screen
  ---
+ ### Create Movie
+ - [x] Add Movie Controller
+ - [] Show create movie page
  - [] Add routes
- - [] 
- - [] 
- - [] 
- - [] 
- - [] 
+ - [] Ready body data
+ - [] Create movie
+	- [] Add action
+	- [] Add service
+	- [] Add model method for creating movie
+ - [] Add 404 page
  - [] 
  - [] 
  - [] 
