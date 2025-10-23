@@ -1,7 +1,6 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
-import homeController from './controllers/homeController.js';
-import movieController from './controllers/movieController.js';
+import routes from './routes.js';
 
 const app = express();
 const PORT = 5000;
@@ -21,8 +20,7 @@ app.use(express.static('src/static'));
 
 // Routes
 
-app.use(homeController);
-app.use(movieController);
+app.use(routes);
 
 // Start the Server
 app.listen(PORT, () => {

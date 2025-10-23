@@ -21,8 +21,8 @@ Soft uni exercise js back-end.
  ---
  ### Create Movie
  - [x] Add Movie Controller
- - [] Show create movie page
- - [] Add routes
+ - [x] Show create movie page
+ - [x] Add routes
  - [] Ready body data
  - [] Create movie
 	- [] Add action
