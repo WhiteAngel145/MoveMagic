@@ -28,9 +28,9 @@ Soft uni exercise js back-end.
 	- [x] Add action
 	- [x] Add service
 	- [x] Add model method for creating movie
- - x[] Redirect after creating movie
+ - [x] Redirect after creating movie
+ - [x] Add unique id for eah created movie
  - [] Add 404 page
- - [] 
  - [] 
  - [] 
  - [] 

@@ -1,3 +1,5 @@
+import { v4 as uuid } from 'uuid';
+
 const movies = [
     {
       _id: "a3682672-0ee4-1284-8759-35ee253329zv",
@@ -37,6 +39,7 @@ const movies = [
 export default class Movie {
   constructor(data) {
     Object.assign(this, data); // assign all properties from data to the instance
+    this._id = uuid(); // generate a unique identifier for the movie
 
   }
 
@@ -44,11 +47,13 @@ export default class Movie {
     return [...movies]; // return a copy of the movies array or use movies.slice()
 	}
 
+  get id() {
+    return this._id; // return the unique identifier of the movie
+  }
+
   save() {
-    // this.data._id = (Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)); // generate a simple unique id
     movies.push(this); // add the new movie to the movies array
-    console.log(movies);
-    
+
     return this; // return the newly created movie data
   }
 
