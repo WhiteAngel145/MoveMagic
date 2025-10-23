@@ -15,7 +15,7 @@ Soft uni exercise js back-end.
  ### Architecture
  - [x] Add home controller
  - [x] Add movie data layer
- - [] Add movie service
+ - [x] Add movie service
  - [] Render movies on home page
  - [] Show no movies screen
  ---
