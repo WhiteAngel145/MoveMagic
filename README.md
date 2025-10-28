@@ -23,6 +23,7 @@ Soft uni exercise js back-end.
  - [x] Add Movie Controller
  - [x] Show create movie page
  - [x] Add routes
+ - [x] Add 404 page
  - [x] Ready body data
  - [x] Create movie
 	- [x] Add action
@@ -33,9 +34,12 @@ Soft uni exercise js back-end.
  ---
  ### Details Page
  ### Search Page
- - [] Add 404 page
- - [] 
- - [] 
- - [] 
+ ### Bonuses
+ - [] File Persistence
+ - [] Add navigation button for detail page
+ - [] Add route with param for details page
+ - [] GetOne movie from service
+ - [] Find movie by id from model
+ - [] Render details page with dynamic data
  - [] 
  - [] 
