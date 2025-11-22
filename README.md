@@ -35,11 +35,11 @@ Soft uni exercise js back-end.
  ### Details Page
  - [x] Add navigation button for detail page
  - [x] Add route with param for details page
+ - [x] GetOne movie from service
+ - [x] Find movie by id from model
  ### Search Page
  ### Bonuses
  - [] File Persistence
- - [] GetOne movie from service
- - [] Find movie by id from model
  - [] Render details page with dynamic data
  - [] 
  - [] 
