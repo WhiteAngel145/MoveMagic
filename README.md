@@ -33,11 +33,11 @@ Soft uni exercise js back-end.
  - [x] Add unique id for eah created movie `npm i uuid`
  ---
  ### Details Page
+ - [x] Add navigation button for detail page
+ - [x] Add route with param for details page
  ### Search Page
  ### Bonuses
  - [] File Persistence
- - [] Add navigation button for detail page
- - [] Add route with param for details page
  - [] GetOne movie from service
  - [] Find movie by id from model
  - [] Render details page with dynamic data
