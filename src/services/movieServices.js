@@ -5,6 +5,9 @@ export default {
 	getAll() {
 		return Movie.find();
 	},
+	getOne(movieId) {
+		return Movie.findOne({_id: movieId});
+	},
 	create(data) {
 
 		const movie = new Movie(data); // create a new instance of the Movie model with the provided data

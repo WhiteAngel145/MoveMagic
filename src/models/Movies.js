@@ -43,12 +43,28 @@ export default class Movie {
 
   }
 
-	static find(){
-    return [...movies]; // return a copy of the movies array or use movies.slice()
+	static find(filter = {}){
+    let result = movies.slice(); // create a shallow copy of the movies array
+
+        if (filter._id) {
+      result = movies.filter(movie => movie._id === filter._id); // filter movies by _id if provided
+    }
+
+    return result; // return the filtered list of movies
 	}
 
   get id() {
     return this._id; // return the unique identifier of the movie
+  }
+
+  static findOne(filter = {}) { // static method to find a single movie based on a filter object
+    let result = movies[0]; // start with the first movie in the array
+
+    if (filter._id) {
+      result = movies.find(movie => movie._id === filter._id); // filter movies by _id if provided
+    }
+
+    return result; // return the first matching movie or null if none found
   }
 
   save() {
