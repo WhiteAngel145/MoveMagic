@@ -50,6 +50,18 @@ export default class Movie {
       result = movies.filter(movie => movie._id === filter._id); // filter movies by _id if provided
     }
 
+    if (filter.title) {
+      result = result.filter(movie => movie.title.toLowerCase().includes(filter.title.toLowerCase())); // filter movies by title if provided
+    }
+
+    if (filter.genre) {
+      result = result.filter(movie => movie.genre.toLowerCase() === filter.genre.toLowerCase()); // filter movies by genre if provided
+    }
+
+    if (filter.year) {
+      result = result.filter(movie => movie.year === filter.year); // filter movies by year if provided
+    }
+
     return result; // return the filtered list of movies
 	}
 
